@@ -1,5 +1,5 @@
 import { RequestHandler } from "express";
-import { authLoginSchema } from "../validators/auth.valitador";
+import { authLoginSchema } from "@/validators/auth.validator";
 import * as userService from '../services/user.service'
 import { AppError } from "../utils/apperror";
 import { error } from "console";
